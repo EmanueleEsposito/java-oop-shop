@@ -19,7 +19,7 @@ public class Main {
 
 //Calcolo prezzo con formattazione
 
-		for (int i = 1; i < prodotti.length; i++) {
+		for (int i = 0; i < prodotti.length; i++) {
 			System.out.println("Il prezzo totale del prodotto è: " + prodotti[i].prezzoFormattato());
 		}
 	}
